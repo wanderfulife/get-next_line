@@ -6,16 +6,16 @@
 /*   By: j <j@student.42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/28 23:52:18 by j                 #+#    #+#             */
-/*   Updated: 2021/10/28 23:52:20 by j                ###   ########.fr       */
+/*   Updated: 2021/10/29 11:37:13 by jwander          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
 
-#ifndef BUFFER_SIZE
-# define BUFFER_SIZE 5
-#endif
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 5
+# endif
 
 # include <stdio.h>
 # include <unistd.h>

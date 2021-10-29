@@ -6,7 +6,7 @@
 /*   By: j <j@student.42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/28 23:06:14 by j                 #+#    #+#             */
-/*   Updated: 2021/10/28 23:07:50 by j                ###   ########.fr       */
+/*   Updated: 2021/10/29 11:53:22 by jwander          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,10 +32,10 @@ static char	*update_n_format(char *line)
 	return (leftovers);
 }
 
-static char	read_n_append(int fd, char *buffer, char *leftovers)
+static char	*read_n_append(int fd, char *buffer, char *leftovers)
 {
 	char	*temp;
-	int	bytes_read;
+	int		bytes_read;
 
 	bytes_read = 1;
 	while (bytes_read != 0)
